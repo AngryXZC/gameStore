@@ -31,3 +31,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# MyBatis Generator 输出目录
+#/src/main/java/com/xzc/gamestore/mbg
+#/src/main/resources/com/xzc/gamestore/mbg/mapper
