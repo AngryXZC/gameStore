@@ -4,6 +4,7 @@ import com.xzc.gamestore.common.api.CommonPage;
 import com.xzc.gamestore.common.api.CommonResult;
 import com.xzc.gamestore.mbg.model.PmsBrand;
 import com.xzc.gamestore.service.PmsBrandService;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,6 +21,7 @@ import java.util.List;
  */
 
 @Controller
+
 @RequestMapping("/brand")
 public class PmsBrandController {
     @Autowired
@@ -75,6 +77,8 @@ public class PmsBrandController {
             return CommonResult.failed("操作失败");
         }
     }
+
+    //受保护接口
 
     @RequestMapping(value = "/list", method = RequestMethod.GET)
     @ResponseBody
