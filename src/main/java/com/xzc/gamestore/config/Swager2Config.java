@@ -38,8 +38,8 @@ public class Swager2Config {
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 .title("SwaggerUI演示")
-                .description("mall-tiny")
-                .contact(new Contact("macro", null, null))
+                .description("GameStore")
+                .contact(new Contact("xzc", null, null))
                 .version("1.0")
                 .build();
     }
