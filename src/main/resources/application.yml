@@ -56,3 +56,10 @@ secure:
             - /actuator/**
             - /druid/**
             - /admin/**
+            - /esProduct/**
+    data:
+        elasticsearch:
+            repositories:
+                enabled: true # 开启ES仓库配置，自动为仓库接口生成实现类
+    elasticsearch:
+            uris: http://localhost:9200 # ES的连接地址及端口号

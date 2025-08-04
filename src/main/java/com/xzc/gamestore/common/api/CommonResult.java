@@ -1,11 +1,5 @@
 package com.xzc.gamestore.common.api;
 
-/**
- * @auther macrozheng
- * @description 通用返回对象
- * @date 2019/4/19
- * @github https://github.com/macrozheng
- */
 public class CommonResult<T> {
     private long code;
     private String message;
